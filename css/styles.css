@@ -7,6 +7,7 @@
     --back-color:#2F303A;
     --main-white-color:#FFFFFF;
     --greey-color:#F5F4FA;
+    
 
     }
 
@@ -63,7 +64,7 @@ list-style: none;
     color: var(--accent-color);
         }
 .hero {
-    background-color:var(--hero-color);
+    background-color:var(--back-color);
 }
 .hero-title {
     font-style: normal;
