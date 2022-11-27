@@ -40,7 +40,7 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
         }
     /* применить ховер ко всему лого */
-.site-nav .link {
+.site-nav {
     color: var(--primary-black-color);
 font-weight: 500;
 font-size: 14px;
@@ -48,11 +48,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 list-style: none;
     }
-.site-nav .link :hover,
-.site-nav .link :focus {
+.site-nav :hover,
+.site-nav :focus {
     color: var(--accent-color);
     }
-.contact .link {
+.contact {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -60,10 +60,10 @@ letter-spacing: 0.02em;
 list-style: none;
         }
 .contact:focus,
-.link :hover {
+.contact:hover {
     color: var(--accent-color);
         }
-.hero {
+.hero{
     background-color:var(--back-color);
 }
 .hero-title {
@@ -137,11 +137,11 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-list-style: none;
+
 
 }
 .work-item {
-/* убрать точки списка  */
+    list-style: none;
 }
 .team {
     background-color:var(--greey-color);
@@ -154,6 +154,9 @@ line-height: 1.66;
 text-align: center;
 letter-spacing: 0.03em;
 list-style: none;
+}
+.team-list {
+    list-style: none;
 }
 .name {
     color: var(--primary-black-color);
@@ -247,8 +250,8 @@ letter-spacing: 0.03em;
 cursor: pointer;
 
 }
-.btn-port:hover,
-.btn-port:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
     color:var(--main-white-color);
     background-color: var(--accent-color);
 }
