@@ -10,8 +10,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-family: "Roboto", 
   color: var(--text-color);
   background-color: var(--white-color);
 }
@@ -268,3 +267,4 @@ img {
 address {
   font-style: normal;
 }
+
