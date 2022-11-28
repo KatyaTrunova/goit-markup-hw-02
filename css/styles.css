@@ -6,8 +6,8 @@
   --black-color: #000000;
   --back-color: #2f303a;
   --main-white-color: #ffffff;
-  --btn-color:#F5F4FA;
- }
+  --btn-color: #f5f4fa;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -34,7 +34,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo .logo-style:hover{
+.logo .logo-style:hover {
   color: var(--accent-color);
 }
 /* применить ховер ко всему лого */
@@ -47,13 +47,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
 }
 .site-nav :hover,
 .site-nav :focus {
   color: var(--accent-color);
 }
-.contact{
+.contact {
   list-style: none;
 }
 .contact .link {
@@ -61,10 +60,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:inherit
+  color: inherit;
 }
-.contact:focus,
-.contact:hover {
+.mail :focus,
+.mail :hover {
+  color: var(--accent-color);
+}
+.telephone :focus,
+.telephone:hover {
   color: var(--accent-color);
 }
 .hero {
@@ -79,7 +82,7 @@ body {
 .button-primary {
   color: var(--main-white-color);
   background-color: var(--accent-color);
-  border:transparent;
+  border: transparent;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 88;
@@ -90,7 +93,8 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-.button-primary:hover .button-primary:focus {
+.button-primary:hover .button-primary:focus
+.button-primary:active {
   color: var(--main-white-color);
   background-color: var(--accent-color);
 }
@@ -109,14 +113,10 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.company-benefits{
-  background-color:var(--white-color) ;
-}
 .feature-list {
   list-style: none;
 }
 /* убрать точки списка */
-
 .benefits {
   color: var(--primary-black-color);
   font-weight: 700;
@@ -130,11 +130,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.work {
-  background-color:var(--white-color);
-}
 .work-process {
-  color:var(--primary-black-color);
+  color: var(--primary-black-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -148,7 +145,7 @@ body {
   background-color:var(--btn-color);
 }
 .team-title {
-  color:var(--primary-black-color);
+  color: var(--primary-black-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.66;
@@ -192,26 +189,39 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/* применить ховер ко всему лого */
-.location {
+.logo-web :hover
+.logo-web :focus{
+  color: var(--accent-color);
+}
+.logo-type :hover,
+.logo-type :focus {
+  color: var(--accent-color);
+}
+
+.footer-ad :hover,
+.footer-ad :focus {
+  color: var(--accent-color);
+}
+.geo{
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--main-white-color);
 }
-.location :hover .location :focus {
-  color: var(--main-white-color);
-}
 .connect {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
+  text-decoration: none;
 }
-.connect :hover .mail :focus {
-  color: rgba(255, 255, 255, 0.6);;
-
+.phone {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff99;
+  text-decoration: none;
 }
 a {
   text-decoration: none;
@@ -220,24 +230,20 @@ img {
   display: block;
   height: auto;
 }
-
-.projects {
-  background-color: var(--white-color);
-}
 .btn-port {
   list-style: none;
 }
 
 .btn-portfolio {
   color: var(--primary-black-color);
-  background-color:var(--btn-color);
+  background-color: var(--btn-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  border:transparent;
+  border: transparent;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -247,7 +253,6 @@ img {
 .examples {
   list-style: none;
 }
-/* убратт точки списка */
 .product-title {
   font-weight: 700;
   font-size: 18px;
